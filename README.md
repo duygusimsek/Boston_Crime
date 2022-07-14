@@ -14,6 +14,24 @@
 ## Project Overview
 
 
+#Technolgies 
+
+Application/Data
+PG Admin SQL
+Jupyter Notebooks/Pandas
+Excel
+
+Utilites
+Github
+Tableau
+
+Busniess tools
+Slack
+
+Visulization
+VSCode
+
+
 
 
 
