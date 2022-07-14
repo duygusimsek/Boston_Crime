@@ -17,18 +17,24 @@
 #Technolgies 
 
 Application/Data
+
 PG Admin SQL
+
 Jupyter Notebooks/Pandas
+
 Excel
 
-Utilites
+#Utilites
+
 Github
 Tableau
 
-Busniess tools
+#Busniess tools
+
 Slack
 
-Visulization
+#Visulization
+
 VSCode
 
 
