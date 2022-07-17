@@ -1,2 +1,62 @@
 # Boston_Crime
-Final_project
+
+## Final Project - Part 1 
+
+
+## Team Members - Roles
+
+* [Carter Bentinganan](https://github.com/csobent) - Tool Creation (Triangle)
+* [Christopher Lue](https://github.com/chrislue01) - Technology Manager (X)
+* [Duygu Simsek](https://github.com/duygusimsek) - GitHub Repository Owner (Square)
+* [Kimberly Smith](https://github.com/kimcamp33) - Data Framework Creation (Circle)
+
+## Project Overview
+
+Crime is one of the complex social problems that has grown a lot over time with the increase in population and impacts directly on victims and indirectly on the community. It has strong links to health and well-being at a population level. Crimes are divided by law into various categories, depending on the offense’s severity, the offender’s age, the potential punishment that can be imposed, and the court that holds jurisdiction over the case. No society in any part of the world is without crime. 
+
+Boston is the capital and most populous city of the Commonwealth of Massachusetts in the United States and the 24th-most populous city in the country. It has been recorded 4,378 violent crimes in 2020 in Boston, giving it a violent crime rate of 6.48 per 1,000 people. There were 58 murders, 193 rapes, 923 robberies, and 3,204 sex assaults. These are considered high, given the city has a population of about 675,000 as of 2020.
+
+For the University of Central Florida Data Analytics Bootcamp Project, our team has analyzed **Boston Crime Rate**  for last year (2021) to identify major criminal incidents, locations, and times. In this project, we analyzed the prime crime locations, crimes that have been committed, and days and times. With this analysis, we aimed to answer these questions:
+
+* Is it possible to predict where or when a crime will be committed?
+* How has crime changed over the year?
+* Does the frequency of crimes change over the day? Week? Months?
+* What types of crimes are most common?
+* In which area most crimes are committed?
+
+## Analysis
+
+The dataset that has been used for the project is provided by [data.boston.gov](https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system/resource/f4495ee9-c42c-4019-82c1-d067f07e45d2) web site. 
+
+For the first stage of the analysis, to have a clean dataset, [Crime Data](https://github.com/duygusimsek/Boston_Crime/blob/main/CRIMEDATA.csv) some columns were dropped by using SQL, and the pseudocode for the machine learning analysis was created.  To display the findings visually Tableau will be used. 
+
+
+## Machine Learning 
+
+For this analysis, we will utilize an unsupervised machine learning model -- clustering -- in order to determine Boston’s crime rate and areas on the given day and time. Pulling data from [data.boston.gov](https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system/resource/f4495ee9-c42c-4019-82c1-d067f07e45d2), we will train and test our model to help predict crimes at a specific location in the city based on previous crime data. The dataset will be divided into two parts training and testing using **clustering** and **K-Means algorithm**. This analysis hopefully will help law enforcement agencies to predict and detect crimes in specific areas. Visualizing the results by graphs and charts will help understand better the dataset, crime hotspot areas, crime types, and crime patterns.
+
+## Technolgies 
+* Application/Data
+* PG Admin SQL
+* Jupyter Notebooks/Pandas
+* Excel
+
+### Utilites
+* Github
+* Tableau
+
+### Business tools
+* Slack
+
+### Visulization
+* VSCode
+* Tableau
+
+## Sources 
+* Dataset Source 
+* Dataset csv file 
+* Wikipedia 
+
+
+
+
