@@ -28,7 +28,7 @@ For the University of Central Florida Data Analytics Bootcamp Project, our team 
 
 The dataset that has been used for the project is provided by [data.boston.gov](https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system/resource/f4495ee9-c42c-4019-82c1-d067f07e45d2) web site. 
 
-For the first stage of the analysis, to have a clean dataset, [Crime Data](https://github.com/duygusimsek/Boston_Crime/blob/main/CRIMEDATA.csv) some columns were dropped by using SQL, and the pseudocode for the machine learning analysis was created.  To display the findings visually Tableau will be used. 
+For the first stage of the analysis, to have a clean dataset, [Crime_Data.png](https://github.com/duygusimsek/Boston_Crime/blob/main/Images/Crime_Data.png) some columns were dropped by using SQL, and the pseudocode for the machine learning analysis was created.  To display the findings visually Tableau will be used. 
 
 
 ## Machine Learning 
@@ -56,6 +56,7 @@ For this analysis, we will utilize an unsupervised machine learning model -- clu
 * Dataset Source 
 * Dataset csv file 
 * Wikipedia 
+* [Crime Data](https://github.com/duygusimsek/Boston_Crime/blob/main/CRIMEDATA.csv)
 
 
 
