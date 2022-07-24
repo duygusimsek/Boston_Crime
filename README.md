@@ -35,6 +35,15 @@ For the first stage of the analysis, to have a clean dataset, [Crime_Data.png](h
 
 For this analysis, we will utilize an unsupervised machine learning model -- clustering -- in order to determine Boston’s crime rate and areas on the given day and time. Pulling data from [data.boston.gov](https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system/resource/f4495ee9-c42c-4019-82c1-d067f07e45d2), we will train and test our model to help predict crimes at a specific location in the city based on previous crime data. The dataset will be divided into two parts training and testing using **clustering** and **K-Means algorithm**. This analysis hopefully will help law enforcement agencies to predict and detect crimes in specific areas. Visualizing the results by graphs and charts will help understand better the dataset, crime hotspot areas, crime types, and crime patterns.
 
+### Machine Learning Description:
+
+In our dataset, there were 17 variables: 
+Incident Number, Offense Code, Offense Description, Offense Code Group, District, Reporting Area, Shooting, Occurred on Date, Month, Year, Hour, UCR Part, Street, Latitude, Longitude, and Location. Many of these variables seemed to be duplicates of information we already had. We determined immediately that Offense Code Group and UCR part could be dropped since both columns were completely null. Other data that we dropped included Reporting Area, Year, Street, Latitude and Longitude. We dropped Reporting Area, Latitude, and Longitude because they provided similar area to District and Location, respectively. Year was dropped because all of the data was from the year 2021. After further analysis, it was determined that we could also drop Street and Location in order to create our first K-Means clusters.
+
+The machine learning model chosen for this project was K-Means clustering with PCA (principal component analysis). One of the reasons we chose this model was because we’re not looking for specific outputs, but rather for patterns to determine new patrols and/or stations for specific areas. Some of the limitations include clustering outliers by possibly giving outliers their own cluster, working exclusively only with numeric data, having to know the clusters ahead of time, and being prone to the curse of dimensionality. The benefits of this model include: clustering the data to see patterns, it can scale to large data sets (since ours include 70,000+ data points), and it is relatively easy to use and can manipulate it to suit our goals.
+
+One of the ways we worked around one of the limitations is by using PCA, or Principal Component Analysis; this helps reduce the number of dimensions by grabbing the most important variables and condensing the data into more usable variables. Another way was by using the Elbow curve to help us determine the best number of clusters for our data.
+
 ## Technolgies 
 * Application/Data
 * PG Admin SQL
