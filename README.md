@@ -1,7 +1,8 @@
 # Boston_Crime
 
 ## Final Project - Part 1 
-
+ 
+**Google Slide -** [BOSTON CRIME.pptx](https://github.com/duygusimsek/Boston_Crime/blob/main/BOSTON%20CRIME.pptx)
 
 ## Team Members - Roles
 
@@ -44,7 +45,7 @@ The machine learning model chosen for this project was K-Means clustering with P
 
 One of the ways we worked around one of the limitations is by using PCA, or Principal Component Analysis; this helps reduce the number of dimensions by grabbing the most important variables and condensing the data into more usable variables. Another way was by using the Elbow curve to help us determine the best number of clusters for our data. As far as figuring out our training and testing data, we used a standard testing size of 0.20 or 20% to test the data, while 0.80 or 80% of the data is used for training. This seems to be the standard for testing/training methods, especially for larger datasets.
 
-## Technolgies 
+## Technology 
 * Application/Data
 * PG Admin SQL
 * Jupyter Notebooks/Pandas
