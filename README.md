@@ -42,7 +42,7 @@ Incident Number, Offense Code, Offense Description, Offense Code Group, District
 
 The machine learning model chosen for this project was K-Means clustering with PCA (principal component analysis). One of the reasons we chose this model was because we’re not looking for specific outputs, but rather for patterns to determine new patrols and/or stations for specific areas. Some of the limitations include clustering outliers by possibly giving outliers their own cluster, working exclusively only with numeric data, having to know the clusters ahead of time, and being prone to the curse of dimensionality. The benefits of this model include: clustering the data to see patterns, it can scale to large data sets (since ours include 70,000+ data points), and it is relatively easy to use and can manipulate it to suit our goals.
 
-One of the ways we worked around one of the limitations is by using PCA, or Principal Component Analysis; this helps reduce the number of dimensions by grabbing the most important variables and condensing the data into more usable variables. Another way was by using the Elbow curve to help us determine the best number of clusters for our data.
+One of the ways we worked around one of the limitations is by using PCA, or Principal Component Analysis; this helps reduce the number of dimensions by grabbing the most important variables and condensing the data into more usable variables. Another way was by using the Elbow curve to help us determine the best number of clusters for our data. A far as training and testing the data, we used a standard test size for our model, which was 0.20 or 20% of the data for testing, while 0.80 or 80% is for training.
 
 ## Technolgies 
 * Application/Data
