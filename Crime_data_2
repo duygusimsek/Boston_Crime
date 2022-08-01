@@ -1,0 +1,47 @@
+
+CREATE TABLE "crime_data" (
+    "Offense_code" varchar   NOT NULL,
+    "OFFENSE_DESCRIPTION" varchar   NOT NULL,
+    "DISTRICT" varchar,
+    "REPORTING_AREA" int   NOT NULL,
+    "SHOOTING" text   NOT NULL,
+    "OCCURRED_ON_DATE" text  NOT NULL,
+    "YEAR" text   NOT NULL,
+    "MONTH" text   NOT NULL,
+    "DAY_OF_WEEK" varchar   NOT NULL,
+    "HOUR" text   NOT NULL,
+    "STREET" varchar   NOT NULL,
+    "Location" varchar
+    );
+
+SELECT * FROM crime_data;
+
+CREATE TABLE "crime_incident_reports_2018" (
+    "INCIDENT_NUMBER" varchar,
+    "Offense_code" varchar ,
+    "OFFENSE_DESCRIPTION" varchar   ,
+    "OFFENSE_CODE_GROUP" text ,
+    "DISTRICT" varchar ,
+    "REPORTING_AREA" text ,
+    "SHOOTING" text ,
+    "OCCURRED_ON_DATE" text ,
+    "YEAR" text  ,
+    "MONTH" text  ,
+    "DAY_OF_WEEK" varchar ,
+    "HOUR" int ,
+    "UCR_PART" varchar ,
+    "STREET" varchar  ,
+    "Lat" varchar  ,
+    "Long" varchar ,
+    "Location" varchar 
+);
+
+select * from crime_data
+select * from crime_incident_reports_2018
+
+-- Create new table for crime info
+select  "Offense_code", "DISTRICT", "SHOOTING"
+INTO crime_info
+FROM crime_data;
+-- Check the table
+SELECT * FROM crime_info;
