@@ -2,7 +2,9 @@
 
 ## Final Project - Part 1 
  
-**Google Slide -** [BOSTON CRIME.pptx](https://github.com/duygusimsek/Boston_Crime/blob/main/BOSTON%20CRIME.pptx)
+* **PowerPoint -** [BOSTON CRIME.pptx](https://github.com/duygusimsek/Boston_Crime/blob/duygu/BOSTON%20CRIME.pptx)
+
+* **Tableau -** [Boston Crime Project](https://public.tableau.com/app/profile/kimberly.smith2198/viz/BostonCrimeProject/CRIMECOUNT)
 
 ## Team Members - Roles
 
