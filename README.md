@@ -47,6 +47,22 @@ The machine learning model chosen for this project was K-Means clustering with P
 
 One of the ways we worked around one of the limitations is by using PCA, or Principal Component Analysis; this helps reduce the number of dimensions by grabbing the most important variables and condensing the data into more usable variables. Another way was by using the Elbow curve to help us determine the best number of clusters for our data. As far as figuring out our training and testing data, we used a standard testing size of 0.20 or 20% to test the data, while 0.80 or 80% of the data is used for training. This seems to be the standard for testing/training methods, especially for larger datasets.
 
+## Dashboard 
+
+For our Dashboard and data visualization, we used Tableau. 
+
+![Screen Shot 2022-08-03 at 6 23 23 PM](https://user-images.githubusercontent.com/99801608/182722735-21b36c6e-448b-4875-b095-379e56e6ebaf.png)
+
+
+We also created three stories which includes when crime occurred, where crimes occurred, and what kinds of crimes occurred.  
+
+![Screen Shot 2022-08-03 at 6 18 40 PM](https://user-images.githubusercontent.com/99801608/182722313-31990bf5-282a-4a45-a50a-483e2ae0fd29.png)
+
+![Screen Shot 2022-08-03 at 6 20 40 PM](https://user-images.githubusercontent.com/99801608/182722469-7668b155-bd09-4d20-99b0-dbdd9fe399cd.png)
+
+![Screen Shot 2022-08-03 at 6 21 39 PM](https://user-images.githubusercontent.com/99801608/182722534-b8497936-b8fe-4023-aa5b-312a7d323681.png)
+
+
 ## Technology 
 * Application/Data
 * PG Admin SQL
