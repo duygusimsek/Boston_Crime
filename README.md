@@ -91,7 +91,7 @@ For the first stage of the analysis, to have a clean dataset, [Crime_Data.png](h
 
 For this analysis, we will utilize an unsupervised machine learning model -- clustering -- in order to determine Boston’s crime rate and areas on the given day and time. Pulling data from [data.boston.gov](https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system/resource/f4495ee9-c42c-4019-82c1-d067f07e45d2), we will train and test our model to help predict crimes at a specific location in the city based on previous crime data. The dataset will be divided into two parts training and testing using **clustering** and **K-Means algorithm**. This analysis hopefully will help law enforcement agencies to predict and detect crimes in specific areas. Visualizing the results by graphs and charts will help understand better the dataset, crime hotspot areas, crime types, and crime patterns.
 
-* ### Breakdown of Machine Learning Model
+### Breakdown of Machine Learning Model
 
 In our dataset, there were 17 variables: 
 
@@ -128,6 +128,21 @@ One of the ways we worked around one of the limitations is by using PCA, or Prin
 
 ![Variance_Ratio](https://user-images.githubusercontent.com/98721891/182528428-84bc944b-c373-432d-95f1-16c513a0a35c.png)
 ![Elbow_Curve](https://user-images.githubusercontent.com/98721891/182527586-7ecd3eba-4b2a-4830-9d4a-47a8bda49fc3.png)
+
+## Dashboard 
+
+For our Dashboard and data visualization, we used Tableau [Boston Crime Project](https://public.tableau.com/app/profile/kimberly.smith2198/viz/BostonCrimeProject/CRIMECOUNT) 
+
+![Screen Shot 2022-08-03 at 6 23 23 PM](https://user-images.githubusercontent.com/99801608/182722735-21b36c6e-448b-4875-b095-379e56e6ebaf.png)
+
+
+We also created three stories which includes when crime occurred, where crimes occurred, and what kinds of crimes occurred.  
+
+![Screen Shot 2022-08-03 at 6 18 40 PM](https://user-images.githubusercontent.com/99801608/182722313-31990bf5-282a-4a45-a50a-483e2ae0fd29.png)
+
+![Screen Shot 2022-08-03 at 6 20 40 PM](https://user-images.githubusercontent.com/99801608/182722469-7668b155-bd09-4d20-99b0-dbdd9fe399cd.png)
+
+![Screen Shot 2022-08-03 at 6 21 39 PM](https://user-images.githubusercontent.com/99801608/182722534-b8497936-b8fe-4023-aa5b-312a7d323681.png)
 
 ## Suggestions for Machine Learning
 
