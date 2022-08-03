@@ -14,7 +14,7 @@ CREATE TABLE "crime_data" (
     "Location" varchar
     );
 
-SELECT * FROM rime_data;
+SELECT * FROM crime_data;
 
 CREATE TABLE "crime_incident_reports_2018" (
     "INCIDENT_NUMBER" varchar,
@@ -39,7 +39,7 @@ CREATE TABLE "crime_incident_reports_2018" (
 select * from crime_data
 select * from crime_incident_reports_2018
 
--- Create new table for retiring employees
+-- Create new table for crime info
 select  "Offense_code", "DISTRICT", "SHOOTING"
 INTO crime_info
 FROM crime_data;
